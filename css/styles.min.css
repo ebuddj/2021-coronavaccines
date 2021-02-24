@@ -43,11 +43,12 @@ body {
   stroke: #999;
 }
 .plus___DWTpR .meta_container___3p0xG {
+  font-family: 'Roboto';
+  font-size: 24px;
+  left: 450px;
   position: absolute;
   top: 520px;
-  left: 450px;
   z-index: 9999;
-  font-family: 'Roboto';
 }
 .plus___DWTpR .meta_container___3p0xG .name___3S6H7 {
   color: #000;
