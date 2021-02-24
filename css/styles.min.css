@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500.css);
+body {
+  margin: auto auto;
+  padding: 0;
+}
+.plus___DWTpR {
+  overflow: hidden;
+  max-width: 1150px;
+  position: relative;
+  margin: auto auto;
+  /* General styles */
+}
+.plus___DWTpR h3 {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: auto auto 10px auto;
+  text-align: center;
+}
+.plus___DWTpR h4 {
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 0 auto 5px auto;
+}
+.plus___DWTpR p {
+  font-family: 'Roboto';
+  font-size: 13px;
+  line-height: 17px;
+  margin: 0 auto 0 auto;
+}
+.plus___DWTpR a {
+  color: #000;
+}
+.plus___DWTpR .map_container___22zRx {
+  margin: auto auto;
+}
+.plus___DWTpR .map_container___22zRx svg {
+  display: block;
+  margin: auto auto;
+}
+.plus___DWTpR .map_container___22zRx svg .path___3EPLl {
+  stroke-width: 0.5px;
+  stroke: #999;
+}
+.plus___DWTpR .meta_container___3p0xG {
+  position: absolute;
+  top: 520px;
+  left: 450px;
+  z-index: 9999;
+  font-family: 'Roboto';
+}
+.plus___DWTpR .meta_container___3p0xG .name___3S6H7 {
+  color: #000;
+  font-weight: 500;
+}
+.plus___DWTpR .meta_container___3p0xG .type___3fXQp {
+  color: #999;
+  font-weight: 300;
+}
+.plus___DWTpR .meta_container___3p0xG .developer___2LQgA {
+  color: #000;
+  font-weight: 500;
+}
+.plus___DWTpR .meta_container___3p0xG .origin___3P0CR {
+  color: #999;
+  font-weight: 300;
+}
+.plus___DWTpR .clearfix___1yHqr {
+  zoom: 1;
+}
+.plus___DWTpR .clearfix___1yHqr:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.plus___DWTpR .ss-terms___dMEZ6 {
+  margin: 40px auto auto auto;
+  max-width: 450px;
+}
+.plus___DWTpR .meta___3gcNx {
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0 10px 40px 10px;
+}
+.plus___DWTpR .clear_both___a0DL_ {
+  clear: both;
+}
+.plus___DWTpR .hidden___1aMNf {
+  display: none;
+}
+.plus___DWTpR .nowrap___2n1o8 {
+  white-space: nowrap;
+}
+
