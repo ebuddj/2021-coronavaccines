@@ -22,7 +22,7 @@ View the [data on Google Sheets](https://docs.google.com/spreadsheets/d/1ru-EVWq
 * [Google Public Data](https://developers.google.com/public-data/docs/canonical/countries_csv)
 
 **EBU links**
-* []()
+* [News Exchange](https://news-exchange.ebu.ch/item_detail/69eb029fd2ea54386086c51dbd332358/2021_21009007)
 
 **Used by**
 * []()
