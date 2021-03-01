@@ -25,7 +25,7 @@ View the [data on Google Sheets](https://docs.google.com/spreadsheets/d/1ru-EVWq
 * [News Exchange](https://news-exchange.ebu.ch/item_detail/69eb029fd2ea54386086c51dbd332358/2021_21009007)
 
 **Used by**
-* []()
+* [RTÉ](https://www.rte.ie/news/2021/0228/1199594-covid19-vaccines-global/)
 
 ## How to use
 
