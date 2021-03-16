@@ -20,6 +20,7 @@ View the [data on Google Sheets](https://docs.google.com/spreadsheets/d/1ru-EVWq
 * [TopoJSON Collection](https://bl.ocks.org/FrissAnalytics/a5b18dc15b73f34f92c7448cbb62c38e)
 * [World Atlas TopoJSON](https://github.com/topojson/world-atlas)
 * [Google Public Data](https://developers.google.com/public-data/docs/canonical/countries_csv)
+* [List of Caribbean countries by population](https://en.wikipedia.org/wiki/List_of_Caribbean_countries_by_population)
 
 **EBU links**
 * [News Exchange](https://news-exchange.ebu.ch/item_detail/69eb029fd2ea54386086c51dbd332358/2021_21009007)

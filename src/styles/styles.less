@@ -6,9 +6,14 @@ body {
 }
 .plus {
   overflow: hidden;
-  max-width: 1150px;
   position: relative;
   margin: auto auto;
+  display: table-cell;
+  font-size: 0;
+  height: 100vh;
+  margin: auto auto;
+  vertical-align: middle;
+  width: 100vw;
   h3 {
     font-family: 'Roboto';
     font-size: 24px;
@@ -34,6 +39,8 @@ body {
   // Map.
   .map_container {
     margin: auto auto;
+    max-height: 100vh;
+    max-width: 100vw;
     svg {
       display: block;
       margin: auto auto;
@@ -44,12 +51,13 @@ body {
     }
   }
   .meta_container {
+    margin: auto auto;
+    text-align: left;
     font-family: 'Roboto';
     font-size: 24px;
-    left: 450px;
-    position: absolute;
-    top: 520px;
+    margin-top: -95px;
     z-index: 9999;
+    padding-left: 36%;
     .name {
       color: #000;
       font-weight: 500;
@@ -65,6 +73,11 @@ body {
     .origin {
       color: #999;
       font-weight: 300;
+    }
+    .countries,
+    .who {
+      color: #000;
+      font-weight: 500;
     }
   }
 
