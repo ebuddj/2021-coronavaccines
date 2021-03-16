@@ -11,6 +11,7 @@ import * as topojson from 'topojson-client';
 import * as d3 from 'd3';
 
 import constants from './Constants.jsx';
+import languages from './Languages.jsx';
 
 let interval, g, path;
 
@@ -19,7 +20,7 @@ function getHashValue(key) {
   return matches ? matches[1] : null;
 }
 
-const l = getHashValue('l') ? getHashValue('l') : 'en';
+const l = languages[getHashValue('l') ? getHashValue('l') : 'en'];
 
 // https://github.com/d3/d3-geo-projection
 const projection = d3.geoEqualEarth().center([-5,18]).scale(240);
@@ -117,8 +118,13 @@ class App extends Component {
     constants.country_replacements.forEach((country_replacement) => {
       countries = countries.replace(', ' + country_replacement[0] + ',', ', ' + country_replacement[1] + ',');
     });
-
     countries = countries.split(', ');
+
+    let origins = this.state.data[current_id].Origin.split(', ');
+    origins.forEach((origin, i) => {
+      origins[i] = l[origin];
+    });
+
 
     this.setState((state, props) => ({
       name:this.state.data[current_id].Name,
@@ -126,7 +132,7 @@ class App extends Component {
       developer:this.state.data[current_id].Developer,
       countries:countries.length,
       who:'',
-      origin:this.state.data[current_id].Origin
+      origin:origins.join(', ')
     }));
 
     if (countries.indexOf('WHO') > -1) {
@@ -170,7 +176,7 @@ class App extends Component {
         <div className={style.meta_container}>
           <div><span className={style.name}>{this.state.name}</span>, <span className={style.type}>{this.state.type}</span></div>
           <div><span className={style.developer}>{this.state.developer}</span>, <span className={style.origin}>{this.state.origin}</span></div>
-          <div>Approved by <span className={style.countries}>{this.state.countries} {(this.state.countries > 1) ? 'countries' : 'country'}</span> <span className={style.who}>{this.state.who}</span></div>
+          <div>{l.['Approved by']} <span className={style.countries}>{this.state.countries} {(this.state.countries > 1) ? l.countries : l.country}</span> <span className={style.who}>{this.state.who}</span></div>
         </div>
       </div>
     );
