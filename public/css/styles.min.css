@@ -5,9 +5,13 @@ body {
 }
 .plus___DWTpR {
   overflow: hidden;
-  max-width: 1150px;
   position: relative;
+  display: table-cell;
+  font-size: 0;
+  height: 100vh;
   margin: auto auto;
+  vertical-align: middle;
+  width: 100vw;
   /* General styles */
 }
 .plus___DWTpR h3 {
@@ -33,6 +37,8 @@ body {
 }
 .plus___DWTpR .map_container___22zRx {
   margin: auto auto;
+  max-height: 100vh;
+  max-width: 100vw;
 }
 .plus___DWTpR .map_container___22zRx svg {
   display: block;
@@ -43,12 +49,13 @@ body {
   stroke: #999;
 }
 .plus___DWTpR .meta_container___3p0xG {
+  margin: auto auto;
+  text-align: left;
   font-family: 'Roboto';
   font-size: 24px;
-  left: 450px;
-  position: absolute;
-  top: 520px;
+  margin-top: -95px;
   z-index: 9999;
+  padding-left: 36%;
 }
 .plus___DWTpR .meta_container___3p0xG .name___3S6H7 {
   color: #000;
@@ -65,6 +72,11 @@ body {
 .plus___DWTpR .meta_container___3p0xG .origin___3P0CR {
   color: #999;
   font-weight: 300;
+}
+.plus___DWTpR .meta_container___3p0xG .countries___3npf0,
+.plus___DWTpR .meta_container___3p0xG .who___1Miib {
+  color: #000;
+  font-weight: 500;
 }
 .plus___DWTpR .clearfix___1yHqr {
   zoom: 1;
