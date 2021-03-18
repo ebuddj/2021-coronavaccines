@@ -2,7 +2,7 @@
 
 **Live demo** https://ebuddj.github.io/2021-coronavaccines/
 
-## Approves Corona Vaccines per Country (EBU)
+## Approved Corona Vaccines per Country (EBU)
 
 This visualisation shows which corona vaccines have been approved per country. Main data source is RAPS but we have suplemented the data with information from Covid-19 Vaccine Tracker.
 
