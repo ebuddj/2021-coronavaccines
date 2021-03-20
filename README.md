@@ -28,8 +28,9 @@ View the [data on Google Sheets](https://docs.google.com/spreadsheets/d/1ru-EVWq
 **Used by**
 * [RTÉ/Ireland](https://www.rte.ie/news/2021/0228/1199594-covid19-vaccines-global/)
 * [PR/Poland](https://twitter.com/polskieradiopl/status/1371870754137051137) on Twitter
-* [PR/Poland](https://twitter.com/PR24_pl/status/1372108517386117120?s=20​) on Twitter
+* [PR/Poland](https://twitter.com/PR24_pl/status/1372108517386117120) on Twitter
 * [PR/Poland](https://fb.watch/4gH7haENVT/) on Facebook
+
  
 ## How to use
 
