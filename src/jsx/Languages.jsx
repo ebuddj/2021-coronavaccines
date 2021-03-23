@@ -16,6 +16,6 @@ const languages = {
   'pl':{
 
   }
-}
+};
 
 export default languages;
