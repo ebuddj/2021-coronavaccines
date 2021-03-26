@@ -1,17 +1,16 @@
 const languages = {
   'en':{
     'Approved by':'Approved by',
+    'China':'China',
     'countries':'countries',
     'country':'country',
-    'China':'China',
+    'India':'India',
+    'Multinational':'Multinational',
+    'Russia':'Russia',
+    'The Netherlands':'The Netherlands',
     'UK':'UK',
     'US':'US',
-    'Russia':'Russia',
-    'Uzbekistan':'Uzbekistan',
-    'The Netherlands':'The Netherlands',
-    'India':'India',
-    'Uzbekistan':'The Netherlands',
-    'Multinational':'Multinational'
+    'Uzbekistan':'Uzbekistan'
   },
   'pl':{
 

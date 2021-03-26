@@ -120,7 +120,7 @@ class App extends Component {
     });
     countries = countries.split(', ');
 
-    let origins = this.state.data[current_id].Origin.split(', ');
+    let origins = this.state.data[current_id].Origin.split(' & ');
     origins.forEach((origin, i) => {
       origins[i] = l[origin];
     });
@@ -132,7 +132,7 @@ class App extends Component {
       developer:this.state.data[current_id].Developer,
       countries:countries.length,
       who:'',
-      origin:origins.join(', ')
+      origin:origins.join(' & ')
     }));
 
     if (countries.indexOf('WHO') > -1) {
