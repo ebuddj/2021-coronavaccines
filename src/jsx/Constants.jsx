@@ -4,9 +4,11 @@ const constants = {
     ['European Union','Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden'],
     ['UK','United Kingdom'],
     ['US','United States'],
+    ['US (16 and older)','United States'],
     ['UAE','United Arab Emirates'],
     ['Republika Srpska','Bosnia and Herzegovina'],
     ['Congo','Congo [Republic]'],
+    ['WHO (Oxford; SII/SK)','WHO'],
     ['Ivory Coast','Côte d\'Ivoire'],
     ['Caribbean','Cuba, Haiti, Dominican Republic, Jamaica, Trinidad and Tobago, Guyana, Suriname, Bahamas, Belize, Barbados, Saint Lucia, Saint Vincent and the Grenadines, Grenada, Antigua and Barbuda, Dominica, Saint Kitts and Nevis'],
     ['Vatican City','Holy See']
