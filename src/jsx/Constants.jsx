@@ -8,8 +8,11 @@ const constants = {
     ['UAE','United Arab Emirates'],
     ['Republika Srpska','Bosnia and Herzegovina'],
     ['Congo','Congo [Republic]'],
+    ['Hungary (SII)','Hungary'],
     ['WHO (Oxford; SII/SK)','WHO'],
+    ['Russia (Sputnik Light)','Russia'],
     ['Ivory Coast','Côte d\'Ivoire'],
+    ['Timor Leste','Timor-Leste'],
     ['Caribbean','Cuba, Haiti, Dominican Republic, Jamaica, Trinidad and Tobago, Guyana, Suriname, Bahamas, Belize, Barbados, Saint Lucia, Saint Vincent and the Grenadines, Grenada, Antigua and Barbuda, Dominica, Saint Kitts and Nevis'],
     ['Vatican City','Holy See']
   ],
