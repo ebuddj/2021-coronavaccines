@@ -170,7 +170,7 @@ class App extends Component {
   render() {
     return (
       <div className={style.plus} style={(this.state.id > -1) ? {display: 'table-cell'} : {display: 'none'}}>
-        <h3>As of 13.5.2021</h3>
+        <h3>As of 21.5.2021</h3>
         <div>
           <div className={style.map_container}></div>
         </div>
