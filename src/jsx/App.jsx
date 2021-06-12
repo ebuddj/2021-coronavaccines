@@ -107,12 +107,12 @@ class App extends Component {
     }, 1000);
   }
   getAreaStroke(area) {
-    return (area !== 'Antarctica' && area !== 'Fr. South Antarctic Lands') ? '#999' : '#fff'
+    return (area !== 'Antarctica' && area !== 'Fr. South Antarctic Lands') ? '#999' : '#fff'
   }
   getAreaFill(area) {
-    return (area !== 'Antarctica' && area !== 'Fr. South Antarctic Lands') ? '#eee' : '#fff';
+    return (area !== 'Antarctica' && area !== 'Fr. South Antarctic Lands') ? '#eee' : '#fff';
   }
-  changeAreaAttributes() {
+  changeAreaAttributes() {
     let current_id = this.state.id;
     let countries = this.state.data[current_id].Approved;
     constants.country_replacements.forEach((country_replacement) => {
@@ -142,13 +142,13 @@ class App extends Component {
     }
 
     countries.forEach((country) => {
-      if (_.where(constants.country_data, {name: country}).length === 0 && country !== 'WHO') {
+      if (_.where(constants.country_data, {name: country}).length === 0 && country !== 'WHO') {
         console.log(country)
       }
     });
     g.selectAll('.centroid')
       .attr('r', (d, i) => {
-        return (countries.indexOf(d.name) < 0) ? 0 : 2;
+        return (countries.indexOf(d.name) < 0) ? 0 : 2;
       });
   }
   componentWillUnMount() {
